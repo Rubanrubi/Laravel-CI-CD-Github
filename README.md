@@ -39,7 +39,9 @@
                    and do you have configured github repo if github configured means hit enter and go
                    orelse need to give github repo url in it.
 
-   Step : 3  
+   Step : 3  Configuration
+
+             *
 
 
                  
