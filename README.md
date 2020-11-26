@@ -10,7 +10,8 @@
 
                        Eg : name: CI-CD
 
-               * Then when the CI/CD Triggers? We need to specify on which branch getting pushed, so we need to specified like below:
+               * Then when the CI/CD Triggers? We need to specify on which branch getting pushed, 
+                 so we need to specified like below:
                       
                        Eg : on:
                               push:
@@ -25,12 +26,13 @@
    
    Step : 2  Package Installation
 
-                * Install the deployer package via composer,which is used for laravel automatically pipelined with github workflows
-                  to install that package run the command given below:
+                * Install the deployer package via composer,which is used for laravel automatically 
+                  pipelined with github workflows to install that package run the command given below:
                      
                             composer require deployer/deployer deployer/recipes 
 
-                 * Once you've got it installed, run ./vendor/bin/dep init and follow the prompts, selecting Laravel as your framework. 
+                 * Once you've got it installed, run ./vendor/bin/dep init and follow the prompts, 
+                   selecting Laravel as your framework. 
                    A deploy.php config file will be generated and placed in the root of your project.
 
                  * After running the above command ./vendor/bin/dep init it asks which frameworks,
