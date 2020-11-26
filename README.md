@@ -33,6 +33,12 @@
                  * Once you've got it installed, run ./vendor/bin/dep init and follow the prompts, selecting Laravel as your framework. 
                    A deploy.php config file will be generated and placed in the root of your project.
 
+                 * After running the above command ./vendor/bin/dep init it asks which frameworks,
+                   and do you have configured github repo if github configured means hit enter and go
+                   orelse need to give github repo url in it.
+
+   Step : 3  
+
 
                  
         
